@@ -1,13 +1,13 @@
 import React from "react";
 import { LoginForm } from "remote/Remote";
-import { MantineProvider } from "@mantine/hooks";
+// import { MantineProvider } from "@mantine/hooks";
 
 function App() {
   return (
-    <MantineProvider>
+    <div>
       <LoginForm />
       <p>Welcome to the Micro Frontend App</p>
-    </MantineProvider>
+    </div>
   );
 }
 
