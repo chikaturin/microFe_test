@@ -1,6 +1,5 @@
 {
-  "homepage": "http://chikaturin.github.io/Test",
-  "name": "microfe2",
+  "name": "host-app",
   "private": true,
   "version": "0.0.0",
   "type": "module",
@@ -13,6 +12,10 @@
     "deploy": "gh-pages -d dist"
   },
   "dependencies": {
+    "@mantine/core": "^7.11.2",
+    "@mantine/form": "^7.11.2",
+    "@mantine/hooks": "^7.11.2",
+    "cors-anywhere": "^0.4.4",
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
   },
